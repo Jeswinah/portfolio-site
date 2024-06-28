@@ -1,0 +1,496 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+
+.social  :hover{
+    
+transform: scale(1.1);
+transition-duration: 1.2s;
+   
+}
+.visit-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transform: translateX(50%);
+    
+}
+
+.visit-button:hover {
+    background-color: #45a049;
+}
+/* Body Section */
+body {
+    background-color:  #ffffff  !important;
+    color: rgb(0, 0, 0) !important;
+    width: 100%;
+    line-height: 1.6;
+    
+}
+h1{
+    color: #000000;
+    
+}
+
+/* Header and Navigation */
+.header {
+    position: static; /* Default position */
+    background-color: #ffffff;
+    color: #000000;
+}
+
+nav {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px;
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+    color: #000000;
+}
+
+nav ul li {
+    /* margin: 10px 10px; */
+    color: #000000;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #000000 !important;
+    padding: 10px 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #000000;
+    background-color: #c8c1c1;
+}
+
+nav ul li h1 {
+    font-size: 2rem;
+    color: #000000;
+}
+
+span {
+    color: #ff0000;
+}
+
+/* Main Sections */
+.Full {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+    background-color: #ffffff !important; 
+    color: #000000;/*--New change---*/
+}
+
+/* Home Section */
+.detail {
+    display: flex;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.imag {
+    flex: 1;
+    margin-left: 5%; /* Center the image */
+}
+
+.imag img {
+    width: 100%;
+    max-width: 380px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.content {
+    flex: 1;
+    text-align: left;
+    padding-left: 20px; /* Space between image and content */
+    color: rgb(0, 0, 0);
+}
+
+.detail h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.detail p {
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.detail button a{
+    display: flex;
+    padding: 10px 15px 10px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #008cff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.media{
+    margin-bottom: 20px;
+    margin-right: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.detail button a:hover {
+    color: #000000;
+}
+
+/* About Section */
+.About {
+    padding: 50px 20px;
+    text-align: left;
+}
+
+.About h1 {
+    font-size: 2rem;
+    color: #000000;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.About p {
+    font-size: 1rem;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.About h3 {
+    font-size: 1.5rem;
+    color: #000000;
+    margin: 20px 0;
+}
+
+/* Projects Section */
+.projects {
+    padding: 20px 20px;
+    text-align: justify;
+    
+}
+
+.projects h1 {
+    font-size: 2rem;
+    color: #000000;
+    margin-bottom: 3%;
+    text-align: center;
+
+}
+
+.lang{
+    margin: 25px;
+  
+}
+
+.pcon {
+    padding: 20px;
+}
+
+.pcon h2 {
+    font-size: 1.5rem;
+    color: #ff0000;
+    margin-bottom: 20px;
+}
+
+.pcon p {
+    font-size: 1rem;
+    color: #000000;
+}
+.projects button {
+    justify-self: center;
+}
+
+/* Skills Section */
+.skills {
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.skills h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills ul li {
+    display: inline-block;
+    font-size: 1rem;
+    margin: 10px 20px;
+}
+
+/* Contact Section */
+.contacts {
+    
+    
+    text-align: center;
+    border-radius: 8px;
+    
+}
+
+.contacts h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    margin-top: 0 !important;
+}
+
+.contacts p {
+    font-size: 0.9rem;
+    padding: 0px;
+    
+    
+}
+.social{
+    margin-bottom: 20px;
+    
+}
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button#toggleBtn {
+    display: none; /* Hide button by default */
+}
+/* ----------Footer---------- */
+footer{
+    background-color: white !important;
+    color: #000000 !important;
+}
+
+/* Responsive Design */
+@media (min-width: 992px) {
+    body{
+        font: weight 100px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .header {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        font-size: 900;
+        font-weight: bolder;
+        
+    }
+
+    nav {
+        width: 100%; /* Set navigation width to 100% for larger screens */
+        padding: 22px 20px;
+        margin-bottom: 50px;
+        
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        margin: 0; /* Remove default margin */
+        padding: 0; /* Remove default padding */
+    }
+
+    nav ul li {
+        margin: 10px; /* Adjust margin between nav items */
+        font: size 1.2rem;;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        font-size: 1rem;
+        border-radius: 10px;
+        padding: 10px 20px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    nav ul li a:hover {
+        color: #ff0000;
+        border: 3px solid rgb(0, 0, 0);
+        background-color: rgb(207, 200, 200);
+        border-radius: 10px;
+    }
+   
+    .About h1,p,h3{
+        word-spacing: 1px;
+        letter-spacing: .5px;
+        padding: 50px ,15px;
+        padding-bottom: 10px;
+    }
+  
+    .detail {
+        display: flex;
+        flex-direction: row; /* Ensure content layout for large screens is correct */
+        align-items: center;
+        max-width: 1200px; /* Set max width for content */
+        padding: 0 20px; /* Add padding to ensure content isn't too close to edges */
+        margin-top: 105px;
+        margin-bottom: 85px;
+    }
+
+    .imag {
+        flex: 1;
+        margin-right: 30px; /* Add margin to separate image and text */
+    }
+
+    .imag img {
+        max-width: 65%; /* Ensure image scales with its container */
+        height: auto;
+        border-radius: 50%;
+        margin-top: 22px;
+    }
+
+    .content {
+        flex: 1;
+        text-align: left;
+        padding-left: 20px; /* Space between image and content */
+        padding-top: 80px;
+        font-size: 32px;
+    }
+
+    .detail h1 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+    .skills{
+        margin: 70px 2px;
+    }
+
+    .detail p,
+    .detail button a {
+        font-size: 1rem;
+        border-radius: 10px; /* Adjust margin between elements */
+    }
+    .detail button{
+        border-radius: 10px;
+        border: 1px solid rgb(47, 0, 255);
+    }
+    .contacts{
+        padding-top:20px ;
+        background-color: white;
+    }
+    .container{
+        display:flex;
+    }
+
+#pr{
+    
+    margin-right: 25%;
+    margin-left: 10%;
+    color: #000000;
+    opacity: 90%;
+}
+#pr1{
+    color: #000000;
+    opacity: 90%;
+}
+.side{
+    display: none;
+}
+}
+
+
+
+@media (max-width: 991px) {
+    
+    
+    nav ul {
+        flex-direction:column; /* Stack items vertically */
+        position: absolute;
+        background-color: #ffffff;
+        padding: 10px;
+        text-align: center;
+        z-index: 1000;
+        width: 100%; /* Ensure navigation covers full width on smaller screens */
+        
+    }
+
+  
+   
+    nav ul li {
+        margin: 15px 0;
+        
+        
+    }
+
+    nav ul li a {
+        font-size: larger;
+        display: none;
+        
+        
+    }
+
+    .detail {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .imag {
+        
+        width: 40vb;
+        margin: 200px auto 20px auto;
+        
+    }
+
+    .detail h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .detail p,
+    .detail button a {
+        font-size: 0.8rem;
+       text-align: center;
+      
+    }
+    .detail button{
+        border-radius: 10px;
+        border: 1px solid blue;
+        margin-left: 30%;
+    }
+    .contacts{
+        padding-top:20px ;
+        
+    }
+    .media{
+       margin-left: 5px;
+    }
+    #pr{
+        padding: 50px;
+    }
+    #pr1{
+        padding: 50px;
+    }
+   
+}
