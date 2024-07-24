@@ -26,7 +26,7 @@ transition-duration: 1.2s;
     margin: 1px 2px;
     cursor: pointer;
     border-radius: 12px;
-    transform: translateX(50%);
+    transform: translateX(10%);
     
 }
 
@@ -424,42 +424,40 @@ footer{
 
 @media (max-width: 991px) {
     
-    
-    nav ul {
-        flex-direction:column; /* Stack items vertically */
-        position: absolute;
+ 
+  nav ul {
+
         background-color: #ffffff;
-        padding: 10px;
+        padding: auto;
+
         text-align: center;
-        z-index: 1000;
+        
         width: 100%; /* Ensure navigation covers full width on smaller screens */
         
     }
+     .visit-button{
+        transform: translateX(-3%);
+    } 
 
   
    
-    nav ul li {
-        margin: 15px 0;
-        
-        
-    }
-
+    
     nav ul li a {
         font-size: larger;
         display: none;
-        
-        
-    }
+    } 
+   
 
     .detail {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
+        
     }
 
     .imag {
         
-        width: 40vb;
-        margin: 200px auto 20px auto;
+        width: 30vb;
+        margin: 0px auto 20px auto;
         
     }
 
@@ -486,11 +484,16 @@ footer{
     .media{
        margin-left: 5px;
     }
+    
     #pr{
         padding: 50px;
     }
     #pr1{
         padding: 50px;
     }
-   
+    #btn11{
+        text-align: center;
+        transform: translateX(-20%);
+    }
 }
+
