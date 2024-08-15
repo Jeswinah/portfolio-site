@@ -329,6 +329,7 @@ footer{
     }
 
     nav ul li a:hover {
+         background-color: white;
         border-bottom: 3px solid black;
        transition: background-color 5s, color 0.3s;
        transition: border-color 5s,color 2s;
