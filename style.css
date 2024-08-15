@@ -81,10 +81,6 @@ nav ul li a {
     transition: background-color 0.3s, color 0.3s;
 }
 
-nav ul li a:hover {
-    color: #000000;
-    background-color: #c8c1c1;
-}
 
 nav ul li h1 {
     font-size: 2rem;
