@@ -4,8 +4,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    
-    
 }
 
 .social  :hover{
@@ -162,7 +160,7 @@ span {
     align-items: center;
 }
 .detail button a:hover {
-    color: #000000;
+     background-color: #45a049;
 }
 
 /* About Section */
