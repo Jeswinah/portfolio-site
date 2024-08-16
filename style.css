@@ -321,7 +321,7 @@ footer{
         font: size 1.2rem;;
     }
 
-li a {
+ul li a {
     text-decoration: none;
     position: relative;
     display: inline-block;
@@ -329,7 +329,7 @@ li a {
   }
   
   /* Before pseudo-element for the underline */
-li  a::before {
+ ul li a::before {
     content: '';
     position: absolute;
     width: 0;
@@ -341,7 +341,7 @@ li  a::before {
   }
   
   /* Hover effect to expand the underline */
-li  a:hover::before {
+ ul li a:hover::before {
     width: 100%; /* Full width underline */
     left: 0;
   }
