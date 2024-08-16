@@ -321,20 +321,32 @@ footer{
         font: size 1.2rem;;
     }
 
-    nav ul li a {
-        text-decoration: none;
-        font-size: 1rem;
-        padding: 10px 20px;
-        transition: background-color 0.3s, color 0.3s;
-    }
+a {
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    color: #000; /* Text color */
+  }
+  
+  /* Before pseudo-element for the underline */
+  a::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px; /* Thickness of the underline */
+    bottom: 0;
+    left: 50%;
+    background-color: #000; /* Underline color */
+    transition: all 0.3s ease; /* Transition effect */
+  }
+  
+  /* Hover effect to expand the underline */
+  a:hover::before {
+    width: 100%; /* Full width underline */
+    left: 0;
+  }
+  
 
-    nav ul li a:hover {
-         background-color: white;
-        border-bottom: 3px solid black;
-       transition: background-color 5s, color 0.3s;
-       transition: border-color 5s,color 2s;
-        
-    }
    
     .About h1,p,h3{
         word-spacing: 1px;
