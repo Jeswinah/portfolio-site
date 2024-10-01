@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    
    
 }
 
@@ -128,14 +129,20 @@ span {
     color: rgb(0, 0, 0);
 }
 
+.content h1{
+    font-weight: 700;
+    
+}
 .detail h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
+    
 }
 
 .detail p {
     color: #000000;
     margin-bottom: 30px;
+    
 }
 
 .detail button a{
@@ -157,7 +164,7 @@ span {
     align-items: center;
 }
 .detail button a:hover {
-     background-color: #45a049;
+     background-color: #33c73a;
 }
 
 /* About Section */
@@ -285,12 +292,15 @@ footer{
     color: #000000 !important;
 }
 
+
 /* Responsive Design */
 @media (min-width: 992px) {
     body{
         font: weight 100px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
     }
+    
     
     .header {
         position: sticky;
@@ -346,6 +356,10 @@ ul li a {
     width: 100%; /* Full width underline */
     left: 0;
   }
+  .projects h5{
+    font-weight: 600;
+
+  }
   
 
    
@@ -387,7 +401,7 @@ ul li a {
     }
 
     .detail h1 {
-        font-size: 2.5rem;
+        font-size: 2.8rem;
         margin-bottom: 20px;
     }
     .skills{
