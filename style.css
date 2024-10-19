@@ -4,9 +4,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    
-   
 }
+
 
 .social  :hover{
     
@@ -93,6 +92,7 @@ span {
     color: #ff0000;
 }
 
+
 /* Main Sections */
 .Full {
     width: 100%;
@@ -111,7 +111,7 @@ span {
 
 .imag {
     flex: 1;
-    margin-left: 5%; /* Center the image */
+    margin-left: 5%; 
 }
 
 .imag img {
@@ -125,7 +125,7 @@ span {
 .content {
     flex: 1;
     text-align: left;
-    padding-left: 20px; /* Space between image and content */
+    padding-left: 20px; 
     color: rgb(0, 0, 0);
 }
 
@@ -312,7 +312,7 @@ footer{
     }
 
     nav {
-        width: 100%; /* Set navigation width to 100% for larger screens */
+        width: 100%; 
         padding: 22px 5px;
         margin-bottom: 50px;
         
@@ -335,7 +335,7 @@ footer{
 ul li a {
     text-decoration: none;
     position: relative;
-    display: inline-block;
+    display: inline-block !important;
     color: #000; /* Text color */
   }
   
@@ -430,6 +430,9 @@ ul li a {
 .side{
     display: none;
 }
+#hbr{
+    display: none;
+}
 }
 
 
@@ -447,21 +450,27 @@ ul li a {
         padding: 2%;
         text-align: center;
         justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        
         
     }
      .visit-button{
-        transform: translateX(-3%);
-    } 
-
-  
-   
+        transform: translateX(-2%);
+    }
     
     nav ul li a {
         font-size: larger;
-        display: none;
+       
     } 
-   
-
+    nav ul li{
+        margin-top: 5px;
+    }
+    .na1 {
+        display: none; 
+        
+    }
+    
     .detail {
         flex-direction: column;
         align-items: center;
@@ -488,8 +497,11 @@ ul li a {
     }
     .detail button{
         border-radius: 10px;
-        border: 1px solid rgb(13, 255, 0);
-        margin-left: 30%;
+        border: 1px solid rgb(67, 134, 63);
+        width: 120px;
+        margin: 0px 30%;
+       
+        
     }
     .contacts{
         padding-top:20px ;
@@ -500,10 +512,10 @@ ul li a {
     }
     
     #pr{
-        padding: 5px;
+        padding: 25px;
     }
     #pr1{
-        padding: 5px;
+        padding: 25px;
     }
     #btn11{
         text-align: center;
@@ -513,4 +525,30 @@ ul li a {
         margin: 10px;
         padding: 5px;
     }
+
+    /* Hamburger */
+#hbr{
+    width: 30px;
+    position: absolute;
+    right: 8%;
+    top:5%
+}
+#logo_name{
+    position :absolute;
+    left: 5%;
+    top:4.5%
+    
+}
+nav{
+    margin: 30px;
+   
+}
+#l1{
+    margin-top: 20px;
+}
+.projects button{
+   width: 70vw;
+}
+
+
 }
