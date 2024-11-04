@@ -10,7 +10,7 @@
   transition-duration: 1.2s;
 }
 .visit-button {
-  background-color: #4caf50; /* Green */
+  background-color: #4caf50; 
   border: none;
   color: white;
   padding: 10px 32px;
@@ -40,7 +40,7 @@ h1 {
 
 /* Header and Navigation */
 .header {
-  position: static; /* Default position */
+  position: static; 
   background-color: #ffffff;
   color: #000000;
 }
@@ -63,7 +63,6 @@ nav ul {
 }
 
 nav ul li {
-  /* margin: 10px 10px; */
   color: #000000;
 }
 
@@ -90,7 +89,7 @@ span {
   margin: 0 auto;
   padding: 0px;
   background-color: #ffffff !important;
-  color: #000000; /*--New change---*/
+  color: #000000; 
 }
 
 /* Home Section */
@@ -263,7 +262,7 @@ nav {
 }
 
 button#toggleBtn {
-  display: none; /* Hide button by default */
+  display: none; 
 }
 /* ----------Footer---------- */
 footer {
@@ -310,24 +309,23 @@ footer {
     text-decoration: none;
     position: relative;
     display: inline-block !important;
-    color: #000; /* Text color */
+    color: #000; 
   }
 
-  /* Before pseudo-element for the underline */
   ul li a::before {
     content: "";
     position: absolute;
     width: 0;
-    height: 2px; /* Thickness of the underline */
+    height: 2px; 
     bottom: 0;
     left: 50%;
-    background-color: #000; /* Underline color */
-    transition: all 0.3s ease; /* Transition effect */
+    background-color: #000; 
+    transition: all 0.3s ease; 
   }
 
-  /* Hover effect to expand the underline */
+
   ul li a:hover::before {
-    width: 100%; /* Full width underline */
+    width: 100%; 
     left: 0;
   }
   .projects h5 {
@@ -384,7 +382,7 @@ footer {
   .detail p,
   .detail button a {
     font-size: 1rem;
-    border-radius: 10px; /* Adjust margin between elements */
+    border-radius: 10px;
   }
   .detail button {
     border-radius: 10px;
