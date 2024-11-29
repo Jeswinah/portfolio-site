@@ -13,15 +13,15 @@
   background-color: #4caf50; 
   border: none;
   color: white;
-  padding: 10px 32px;
+  padding: 10px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
   margin: 1px 2px;
   cursor: pointer;
   border-radius: 12px;
-  transform: translateX(10%);
+  display: flex;
+  justify-content: center;
 }
 
 .visit-button:hover {
@@ -212,6 +212,7 @@ span {
 }
 .projects button {
   justify-self: center;
+  width:70%;
 }
 
 /* Skills Section */
@@ -382,10 +383,10 @@ footer {
   .detail p,
   .detail button a {
     font-size: 1rem;
-    border-radius: 10px;
+    border-radius: 8px;
   }
   .detail button {
-    border-radius: 10px;
+    border-radius: 8px;
     border: 1px solid rgb(40, 197, 71);
   }
   .contacts {
@@ -420,9 +421,7 @@ footer {
     flex-direction: column;
     align-items: center;
   }
-  .visit-button {
-    transform: translateX(-2%);
-  }
+
 
   nav ul li a {
     font-size: larger;
@@ -455,7 +454,7 @@ footer {
     text-align: center;
   }
   .detail button {
-    border-radius: 10px;
+    border-radius: 5px;
     border: 1px solid rgb(67, 134, 63);
     width: 120px;
     margin: 0px 30%;
