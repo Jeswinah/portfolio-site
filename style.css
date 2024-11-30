@@ -464,6 +464,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0px;
   }
   .contacts {
     padding-top: 20px;
